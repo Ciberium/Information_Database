@@ -1,0 +1,491 @@
+Waiting for client connections...
+2023-05-22T01.58.29: Received message: k,e
+Server started on 127.0.0.1:13000
+Waiting for client connections...
+Waiting for client connections...
+2023-05-22T01.59.17: Received message: Egor,Grishchuk
+Exception: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at BookingSystem.Program.ClientHandler.Handle() in C:\Users\Егор\source\repos\database\Program.cs:line 82
+Server started on 127.0.0.1:13000
+Waiting for client connections...
+Waiting for client connections...
+2023-05-22T02.01.04: Received message: Egor,Grishchuk
+Exception: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at BookingSystem.Program.ClientHandler.Handle() in C:\Users\Егор\source\repos\database\Program.cs:line 82
+Server started on 127.0.0.1:13000
+Waiting for client connections...
+Waiting for client connections...
+2023-05-22T02.01.48: Received message: Egor,Grishchuk
+You are an admin!
+2023-05-22T02.01.48: Match found: Egor,Grishchuk
+Server started on 127.0.0.1:13000
+Waiting for client connections...
+Waiting for client connections...
+2023-05-22T02.03.04: Received message: Egor ,Grishchuk
+Server started on 127.0.0.1:13000
+Waiting for client connections...
+Server started on 127.0.0.1:13000
+Waiting for client connections...
+Waiting for client connections...
+2023-05-22T02.16.17: Received message: Egor,Grishchuk 
+You are an admin!
+2023-05-22T02.16.17: Match found: Egor,Grishchuk 
+Server started on 127.0.0.1:13000
+Waiting for client connections...
+Waiting for client connections...
+2023-05-22T02.17.00: Received message: Egor, Grishchuk
+You are an admin!
+2023-05-22T02.17.00: Match found: Egor, Grishchuk
+Server started on 127.0.0.1:13000
+Waiting for client connections...
+Waiting for client connections...
+2023-05-22T02.18.54: Received message: Egor ,Grishchuk
+You are an admin!
+2023-05-22T02.18.54: Match found: Egor ,Grishchuk
+Server started on 127.0.0.1:13000
+Waiting for client connections...
+Waiting for client connections...
+2023-05-22T02.31.16: Received message: Grishchuk,Grischchuk
+Exception: System.IO.IOException: Unable to read data from the transport connection: Удаленный хост принудительно разорвал существующее подключение..
+ ---> System.Net.Sockets.SocketException (10054): Удаленный хост принудительно разорвал существующее подключение.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at BookingSystem.Program.ClientHandler.Handle() in C:\Users\Егор\source\repos\database\Program.cs:line 30
+Server started on 127.0.0.1:13000
+Waiting for client connections...
+Waiting for client connections...
+Exception: System.IO.IOException: Unable to read data from the transport connection: Удаленный хост принудительно разорвал существующее подключение..
+ ---> System.Net.Sockets.SocketException (10054): Удаленный хост принудительно разорвал существующее подключение.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at BookingSystem.Program.ClientHandler.Handle() in C:\Users\Егор\source\repos\database\Program.cs:line 30
+Server started on 127.0.0.1:13000
+Waiting for client connections...
+Waiting for client connections...
+2023-05-22T02.32.52: Received message: Egor,Grishchuk
+You are an admin!
+2023-05-22T02.32.52: Match found: Egor,Grishchuk
+Exception: System.IO.IOException: Unable to read data from the transport connection: Удаленный хост принудительно разорвал существующее подключение..
+ ---> System.Net.Sockets.SocketException (10054): Удаленный хост принудительно разорвал существующее подключение.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at BookingSystem.Program.ClientHandler.Handle() in C:\Users\Егор\source\repos\database\Program.cs:line 30
+Server started on 127.0.0.1:13000
+Waiting for client connections...
+Waiting for client connections...
+Exception: System.IO.IOException: Unable to read data from the transport connection: Удаленный хост принудительно разорвал существующее подключение..
+ ---> System.Net.Sockets.SocketException (10054): Удаленный хост принудительно разорвал существующее подключение.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at BookingSystem.Program.ClientHandler.Handle() in C:\Users\Егор\source\repos\database\Program.cs:line 30
+Server started on 127.0.0.1:13000
+Waiting for client connections...
+Waiting for client connections...
+Exception: System.IO.IOException: Unable to read data from the transport connection: Удаленный хост принудительно разорвал существующее подключение..
+ ---> System.Net.Sockets.SocketException (10054): Удаленный хост принудительно разорвал существующее подключение.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at BookingSystem.Program.ClientHandler.Handle() in C:\Users\Егор\source\repos\database\Program.cs:line 30
+Waiting for client connections...
+Server started on 127.0.0.1:13000
+Waiting for client connections...
+Waiting for client connections...
+2023-05-22T02.36.58: Received message: Egor,Grishchuk
+You are an admin!
+2023-05-22T02.36.58: Match found: Egor,Grishchuk
+Server started on 127.0.0.1:13000
+Waiting for client connections...
+Waiting for client connections...
+Exception: System.IO.IOException: Unable to read data from the transport connection: Удаленный хост принудительно разорвал существующее подключение..
+ ---> System.Net.Sockets.SocketException (10054): Удаленный хост принудительно разорвал существующее подключение.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at BookingSystem.Program.ClientHandler.Handle() in C:\Users\Егор\source\repos\database\Program.cs:line 30
+Waiting for client connections...
+2023-05-22T02.39.01: Received message: Egor,Grishchuk
+You are an admin!
+2023-05-22T02.39.01: Match found: Egor,Grishchuk
+Exception: System.IO.IOException: Unable to read data from the transport connection: Удаленный хост принудительно разорвал существующее подключение..
+ ---> System.Net.Sockets.SocketException (10054): Удаленный хост принудительно разорвал существующее подключение.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at BookingSystem.Program.ClientHandler.Handle() in C:\Users\Егор\source\repos\database\Program.cs:line 30
+Server started on 127.0.0.1:13000
+Waiting for client connections...
+Waiting for client connections...
+Exception: System.IO.IOException: Unable to read data from the transport connection: Удаленный хост принудительно разорвал существующее подключение..
+ ---> System.Net.Sockets.SocketException (10054): Удаленный хост принудительно разорвал существующее подключение.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at BookingSystem.Program.ClientHandler.Handle() in C:\Users\Егор\source\repos\database\Program.cs:line 30
+Server started on 127.0.0.1:13000
+Waiting for client connections...
+Waiting for client connections...
+2023-05-22T02.46.04: Received message: Egor,Grishchuk
+You are an admin!
+2023-05-22T02.46.04: Match found: Egor,Grishchuk
+Server started on 127.0.0.1:13000
+Waiting for client connections...
+Server started on 127.0.0.1:13000
+Waiting for client connections...
+Waiting for client connections...
+2023-05-22T03.45.25: Received message: Egor,Grishchuk
+You are an admin!
+2023-05-22T03.45.25: Match found: Egor,Grishchuk
+Exception: System.IO.IOException: Unable to read data from the transport connection: Удаленный хост принудительно разорвал существующее подключение..
+ ---> System.Net.Sockets.SocketException (10054): Удаленный хост принудительно разорвал существующее подключение.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at BookingSystem.ClientHandler.Handle() in C:\Users\Егор\source\repos\database\Program.cs:line 43
+Server started on 127.0.0.1:13000
+Waiting for client connections...
+Waiting for client connections...
+2023-05-22T03.56.06: Received message: Egor,Grishchuk
+2023-05-22T03.56.06: Match not found: Egor,Grishchuk
+Exception: System.IO.IOException: Unable to read data from the transport connection: Удаленный хост принудительно разорвал существующее подключение..
+ ---> System.Net.Sockets.SocketException (10054): Удаленный хост принудительно разорвал существующее подключение.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at BookingSystem.ClientHandler.Handle() in C:\Users\Егор\source\repos\database\Program.cs:line 43
+Server started on 127.0.0.1:13000
+Waiting for client connections...
+Waiting for client connections...
+Exception: System.IO.IOException: Unable to read data from the transport connection: Удаленный хост принудительно разорвал существующее подключение..
+ ---> System.Net.Sockets.SocketException (10054): Удаленный хост принудительно разорвал существующее подключение.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at BookingSystem.ClientHandler.Handle() in C:\Users\Егор\source\repos\database\Program.cs:line 43
+Server started on 127.0.0.1:13000
+Waiting for client connections...
+Waiting for client connections...
+2023-05-22T04.03.12: Received message: Egor,Grishchuk
+You are an admin!
+2023-05-22T04.03.12: Match found: Egor,Grishchuk
+Exception: System.IO.IOException: Unable to read data from the transport connection: Удаленный хост принудительно разорвал существующее подключение..
+ ---> System.Net.Sockets.SocketException (10054): Удаленный хост принудительно разорвал существующее подключение.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at BookingSystem.ClientHandler.Handle() in C:\Users\Егор\source\repos\database\Program.cs:line 43
+Server started on 127.0.0.1:13000
+Waiting for client connections...
+Waiting for client connections...
+2023-05-22T04.12.34: Received message: Egor,Grishchuk
+You are an admin!
+2023-05-22T04.12.34: Match found: Egor,Grishchuk
+Exception: System.IO.IOException: Unable to read data from the transport connection: Удаленный хост принудительно разорвал существующее подключение..
+ ---> System.Net.Sockets.SocketException (10054): Удаленный хост принудительно разорвал существующее подключение.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at BookingSystem.ClientHandler.Handle() in C:\Users\Егор\source\repos\database\Program.cs:line 43
+Server started on 127.0.0.1:13000
+Waiting for client connections...
+Waiting for client connections...
+2023-05-22T04.13.27: Received message: Egor,Grishchuk
+You are an admin!
+2023-05-22T04.13.27: Match found: Egor,Grishchuk
+Exception: System.IO.IOException: Unable to read data from the transport connection: Удаленный хост принудительно разорвал существующее подключение..
+ ---> System.Net.Sockets.SocketException (10054): Удаленный хост принудительно разорвал существующее подключение.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at BookingSystem.ClientHandler.Handle() in C:\Users\Егор\source\repos\database\Program.cs:line 43
+Server started on 127.0.0.1:13000
+Waiting for client connections...
+Waiting for client connections...
+2023-05-22T04.17.15: Received message: Egor,Grishchuk
+You are an admin!
+2023-05-22T04.17.15: Match found: Egor,Grishchuk
+Server started on 127.0.0.1:13000
+Waiting for client connections...
+Waiting for client connections...
+2023-05-22T04.21.11: Received message: Egor,Grishchuk
+You are an admin!
+2023-05-22T04.21.11: Match found: Egor,Grishchuk
+Sent message: You have successfully logged in!
+Exception: System.IO.IOException: Unable to read data from the transport connection: Удаленный хост принудительно разорвал существующее подключение..
+ ---> System.Net.Sockets.SocketException (10054): Удаленный хост принудительно разорвал существующее подключение.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at BookingSystem.ClientHandler.Handle() in C:\Users\Егор\source\repos\database\Program.cs:line 43
+Server started on 127.0.0.1:13000
+Waiting for client connections...
+Waiting for client connections...
+2023-05-22T04.23.57: Received message: Egor,Grishchuk
+You are an admin!
+2023-05-22T04.23.57: Match found: Egor,Grishchuk
+Sent message: You have successfully logged in!
+Exception: System.IO.IOException: Unable to read data from the transport connection: Удаленный хост принудительно разорвал существующее подключение..
+ ---> System.Net.Sockets.SocketException (10054): Удаленный хост принудительно разорвал существующее подключение.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at BookingSystem.ClientHandler.Handle() in C:\Users\Егор\source\repos\database\Program.cs:line 43
+Server started on 127.0.0.1:13000
+Waiting for client connections...
+Waiting for client connections...
+2023-05-22T04.24.41: Received message: Egor',Grishchuk
+2023-05-22T04.24.41: Match not found: Egor',Grishchuk
+Sent message: Match not found: Egor',Grishchuk
+Exception: System.IO.IOException: Unable to read data from the transport connection: Удаленный хост принудительно разорвал существующее подключение..
+ ---> System.Net.Sockets.SocketException (10054): Удаленный хост принудительно разорвал существующее подключение.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at BookingSystem.ClientHandler.Handle() in C:\Users\Егор\source\repos\database\Program.cs:line 43
+Server started on 127.0.0.1:13000
+Waiting for client connections...
+Server started on 127.0.0.1:13000
+Waiting for client connections...
+Waiting for client connections...
+2023-05-22T06.56.24: Received message: Egor,Grishchuk
+You are an admin!
+2023-05-22T06.56.24: Match found: Egor,Grishchuk
+Sent message: You have successfully logged in!
+Exception: System.IO.IOException: Unable to read data from the transport connection: Удаленный хост принудительно разорвал существующее подключение..
+ ---> System.Net.Sockets.SocketException (10054): Удаленный хост принудительно разорвал существующее подключение.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at BookingSystem.ClientHandler.Handle() in C:\Users\Егор\source\repos\database\Program.cs:line 43
+Server started on 127.0.0.1:13000
+Waiting for client connections...
+Waiting for client connections...
+2023-05-22T06.57.58: Received message: Egor,Grishchuk
+You are an admin!
+2023-05-22T06.57.58: Match found: Egor,Grishchuk
+Sent message: You have successfully logged in!
+Exception: System.IO.IOException: Unable to read data from the transport connection: Удаленный хост принудительно разорвал существующее подключение..
+ ---> System.Net.Sockets.SocketException (10054): Удаленный хост принудительно разорвал существующее подключение.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at BookingSystem.ClientHandler.Handle() in C:\Users\Егор\source\repos\database\Program.cs:line 43
+Server started on 127.0.0.1:13000
+Waiting for client connections...
+Waiting for client connections...
+2023-05-22T10.06.43: Received message: Egor,Grishchuk
+You are an admin!
+2023-05-22T10.06.43: Match found: Egor,Grishchuk
+Sent message: You have successfully logged in!
+Exception: System.IO.IOException: Unable to read data from the transport connection: Удаленный хост принудительно разорвал существующее подключение..
+ ---> System.Net.Sockets.SocketException (10054): Удаленный хост принудительно разорвал существующее подключение.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at BookingSystem.ClientHandler.Handle() in C:\Users\Егор\source\repos\database\Program.cs:line 43
+Server started on 127.0.0.1:13000
+Waiting for client connections...
+Waiting for client connections...
+2023-05-22T12.09.47: Received message: Egor,Grishchuk
+You are an admin!
+2023-05-22T12.09.47: Match found: Egor,Grishchuk
+Sent message: You have successfully logged in!
+Server started on 127.0.0.1:13000
+Waiting for client connections...
+Waiting for client connections...
+2023-05-22T12.16.00: Received message: Egor,Grishchuk
+You are an admin!
+2023-05-22T12.16.00: Match found: Egor,Grishchuk
+Sent message: You have successfully logged in!
+Exception: System.IO.IOException: Unable to read data from the transport connection: Удаленный хост принудительно разорвал существующее подключение..
+ ---> System.Net.Sockets.SocketException (10054): Удаленный хост принудительно разорвал существующее подключение.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at BookingSystem.ClientHandler.Handle() in C:\Users\Егор\source\repos\database\Program.cs:line 43
+Server started on 127.0.0.1:13000
+Waiting for client connections...
+Waiting for client connections...
+Exception: System.IO.IOException: Unable to read data from the transport connection: Удаленный хост принудительно разорвал существующее подключение..
+ ---> System.Net.Sockets.SocketException (10054): Удаленный хост принудительно разорвал существующее подключение.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at BookingSystem.ClientHandler.Handle() in C:\Users\Егор\source\repos\database\Program.cs:line 43
+Server started on 127.0.0.1:13000
+Waiting for client connections...
+Waiting for client connections...
+2023-05-22T12.16.44: Received message: Egor,Grishchuk
+You are an admin!
+2023-05-22T12.16.44: Match found: Egor,Grishchuk
+Sent message: You have successfully logged in!
+Client connection lost. Closing connection.
+Server started on 127.0.0.1:13000
+Waiting for client connections...
+Waiting for client connections...
+2023-05-22T12.19.31: Received message: Egor,Grishchuk
+You are an admin!
+2023-05-22T12.19.31: Match found: Egor,Grishchuk
+Sent message: You have successfully logged in!
+Server started on 127.0.0.1:13000
+Waiting for client connections...
+Waiting for client connections...
+2023-05-22T12.22.31: Received message: Egor,Grishchuk
+You are an admin!
+2023-05-22T12.22.31: Match found: Egor,Grishchuk
+Exception: System.IO.IOException: Unable to read data from the transport connection: Удаленный хост принудительно разорвал существующее подключение..
+ ---> System.Net.Sockets.SocketException (10054): Удаленный хост принудительно разорвал существующее подключение.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at BookingSystem.ClientHandler.Handle() in C:\Users\Егор\source\repos\database\Program.cs:line 43
+Server started on 127.0.0.1:13000
+Waiting for client connections...
+Waiting for client connections...
+2023-05-22T12.23.54: Received message: Egor,Grishchuk
+You are an admin!
+2023-05-22T12.23.54: Match found: Egor,Grishchuk
+Exception: System.IO.IOException: Unable to read data from the transport connection: Удаленный хост принудительно разорвал существующее подключение..
+ ---> System.Net.Sockets.SocketException (10054): Удаленный хост принудительно разорвал существующее подключение.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at BookingSystem.ClientHandler.Handle() in C:\Users\Егор\source\repos\database\Program.cs:line 43
+Server started on 127.0.0.1:13000
+Waiting for client connections...
+Waiting for client connections...
+2023-05-22T12.27.26: Received message: Egor,Grishchuk
+You are an admin!
+2023-05-22T12.27.26: Match found: Egor,Grishchuk
+Exception: System.IO.IOException: Unable to read data from the transport connection: Удаленный хост принудительно разорвал существующее подключение..
+ ---> System.Net.Sockets.SocketException (10054): Удаленный хост принудительно разорвал существующее подключение.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at BookingSystem.ClientHandler.Handle(NetworkHelper helper) in C:\Users\Егор\source\repos\database\Program.cs:line 73
+Waiting for client connections...
+Exception: System.IO.IOException: Unable to read data from the transport connection: Удаленный хост принудительно разорвал существующее подключение..
+ ---> System.Net.Sockets.SocketException (10054): Удаленный хост принудительно разорвал существующее подключение.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at BookingSystem.ClientHandler.Handle(NetworkHelper helper) in C:\Users\Егор\source\repos\database\Program.cs:line 73
+Server started on 127.0.0.1:13000
+Waiting for client connections...
+Waiting for client connections...
+2023-05-22T12.28.14: Received message: Egor,Grishchuk
+You are an admin!
+2023-05-22T12.28.14: Match found: Egor,Grishchuk
+Exception: System.IO.IOException: Unable to read data from the transport connection: Удаленный хост принудительно разорвал существующее подключение..
+ ---> System.Net.Sockets.SocketException (10054): Удаленный хост принудительно разорвал существующее подключение.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at BookingSystem.ClientHandler.Handle(NetworkHelper helper) in C:\Users\Егор\source\repos\database\Program.cs:line 73
+Server started on 127.0.0.1:13000
+Waiting for client connections...
+Waiting for client connections...
+2023-05-22T12.37.39: Received message: Kirill,Kovalev
+2023-05-22T12.37.39: Match not found: Kirill,Kovalev
+Exception: System.IO.IOException: The process cannot access the file 'C:\Users\Егор\source\repos\database\bin\Debug\net6.0\Table_of_clients.csv' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.StreamWriter.ValidateArgsAndOpenPath(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path)
+   at BookingSystem.ClientHandler.Handle(NetworkHelper helper) in C:\Users\Егор\source\repos\database\Program.cs:line 159
+Server started on 127.0.0.1:13000
+Waiting for client connections...
+Waiting for client connections...
+2023-05-22T12.41.03: Received message: Kirill,Kovalev
+2023-05-22T12.41.03: Match not found: Kirill,Kovalev
+Exception: System.IO.IOException: The process cannot access the file 'C:\Users\Егор\source\repos\database\bin\Debug\net6.0\Table_of_clients.csv' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.StreamWriter.ValidateArgsAndOpenPath(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path)
+   at BookingSystem.ClientHandler.Handle(NetworkHelper helper) in C:\Users\Егор\source\repos\database\Program.cs:line 159
+Server started on 127.0.0.1:13000
+Waiting for client connections...
+Waiting for client connections...
+2023-05-22T12.45.04: Received message: Kirill,Kovalev
+2023-05-22T12.45.04: Match not found: Kirill,Kovalev
+Exception: System.IO.IOException: The process cannot access the file 'C:\Users\Егор\source\repos\database\bin\Debug\net6.0\Table_of_clients.csv' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.StreamWriter.ValidateArgsAndOpenPath(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at BookingSystem.ClientHandler.Handle(NetworkHelper helper) in C:\Users\Егор\source\repos\database\Program.cs:line 159
+Server started on 127.0.0.1:13000
+Waiting for client connections...
+Waiting for client connections...
+2023-05-22T12.49.14: Received message: Kirill,Kovalev
+2023-05-22T12.49.14: Match not found: Kirill,Kovalev
